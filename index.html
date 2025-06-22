@@ -16,9 +16,15 @@
       padding: 2rem;
     }
     h1 {
-      color: #f95e99;
+      color: #00bfff;
       font-size: 3rem;
       text-shadow: 2px 2px #000;
+    }
+    .crest {
+      width: 100px;
+      height: auto;
+      margin-bottom: 1rem;
+      filter: drop-shadow(0 0 10px #00f0ff);
     }
     p {
       font-size: 1.2rem;
@@ -31,10 +37,14 @@
       border-radius: 1rem;
       width: 90%;
       max-width: 800px;
-      box-shadow: 0 0 10px #ff3e96;
+      box-shadow: 0 0 15px #00f0ff;
+      transition: box-shadow 0.3s ease-in-out;
+    }
+    .section:hover {
+      box-shadow: 0 0 25px #00ffff;
     }
     .button {
-      background: #f95e99;
+      background: #00bfff;
       border: none;
       color: white;
       padding: 1rem 2rem;
@@ -45,7 +55,7 @@
       transition: 0.3s;
     }
     .button:hover {
-      background: #ff7dac;
+      background: #1e90ff;
     }
     footer {
       margin-top: 2rem;
@@ -56,6 +66,7 @@
   </style>
 </head>
 <body>
+  <img src="https://cdn-icons-png.flaticon.com/512/8575/8575371.png" alt="Guild Crest" class="crest" />
   <h1>OnlyLords</h1>
   <p><em>Command Center of the Nerf'd Warbook</em></p>
 
